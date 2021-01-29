@@ -1,0 +1,362 @@
+@font-face{
+    font-family:"Quicksand";
+    src:url(../font/Quicksand-Medium.ttf) ;
+}
+@font-face{
+    font-family:"Quicksand-Bold";
+    src: url(../font/Quicksand-Bold.ttf);
+}
+img{
+    max-width: 100%;
+}
+/*  header */
+.header{
+    min-height:112px;
+    background-color: #ff5959;
+}
+.menu{
+    list-style-type: none;
+    margin-left:230px;
+}
+.menu-item{
+    display: inline-block;
+    margin-left:15px;
+}
+.menu-block{
+    display:flex;
+    padding-top:30px;
+    justify-content: space-between;
+}
+
+.active{
+    background-color:#fc7d7d;
+    padding:4px 6px;
+    border-radius:8px;
+    font-size:14px;
+}
+.menu-link:hover{
+    background-color:#fc7d7d;
+    border-radius:8px;
+    text-decoration:none;
+    transition:0.7s;
+    color:#e8e8e8;
+}
+.menu-link{
+    padding:4px 6px;
+    font:14px "Quicksand";
+    color:#e8e8e8;
+}
+/* Services */
+.service-title{
+    text-align:center;
+    padding-top:50px;
+    font:30px "Quicksand";
+}
+.dot-img{
+    text-align: center;
+    margin-bottom:60px;
+}
+.dot-img::before{
+    content:"";    
+    width: 100px;
+    height: 1px;
+    background-color:black;
+    display:inline-block;
+    border-bottom:1px solid black;
+}
+.dot-img::after{
+    content:"";    
+    width: 100px;
+    height: 1px;
+    background-color:black;
+    display:inline-block;
+    border-bottom:1px solid black;
+    margin-left:5px;
+}
+.services-img{
+    text-align:center;
+}
+.services-caption{
+    text-align:center;
+    font:24px "Quicksand";
+}
+.services-text{
+    text-align:center;
+    font:13px "Quicksand";
+    }
+.service-section{
+    background-color:#e8e8e8;
+    min-height:550px;
+}
+.services{
+    margin-bottom:130px;
+}
+.services img{
+    width: 150px;
+}
+/* News */
+.news{
+    min-height:730px;
+    background-color:#ff5959;
+}
+.news-title{
+    text-align:center;
+    color:#fff;
+    font:30px  "Quicksand";
+    padding-top:50px;
+}
+.news-img{
+    text-align:center;
+    margin-bottom:80px;
+}
+.news-img::before{
+    content:"";    
+    width: 100px;
+    height: 1px;
+    background-color:#fff;
+    display:inline-block;
+    border-bottom:1px solid#fff;
+}
+.news-img::after{
+    content:"";    
+    width: 100px;
+    height: 1px;
+    background-color:#fff;
+    display:inline-block;
+    border-bottom:1px solid #fff;
+}
+.hotel{
+    margin-bottom:15px;
+}
+.hotel-service-caption{
+    color:#fff;
+    font:18px "Quicksand-Bold";
+}
+.date{
+    color:#fff;
+    font:13px "Quicksand";
+    margin-bottom:15px;
+}
+.service-text{
+    color:#fff;
+    font:13px "Quicksand";
+    margin-bottom:15px;
+}
+.hotel-block{
+    max-width:400px;
+    overflow:auto;
+    margin:auto;
+}
+.author{
+    color:#fff;
+    font:13px "Quicksand";
+    margin-left:15px;
+}
+.comments{
+    color:#fff;
+    font:13px "Quicksand";
+    margin-left:15px;
+}
+.comments-block{
+    margin-left:50px;
+}
+.hotel-block{
+    margin-bottom:70px;
+}
+/* contact */
+.contact{
+    min-height: 650px;
+    background-color:#e8e8e8;
+}
+.contact-title{
+    font:30px "Quicksand";
+    text-align: center;
+    padding-top:50px;
+}
+input{
+    border-style:none;
+    width: 560px;
+    height: 50px;
+    padding:4px 6px;
+    border-radius:12px;
+    margin-bottom:12px;
+    max-width:100%;
+}
+input:focus{
+     
+     outline:none;
+}
+textarea{
+    width: 560px;
+    height: 240px;
+    resize: none;
+    border-style: none;
+    padding:4px 6px;
+    border-radius:12px;
+    max-width:100%;
+}
+textarea:focus{
+    outline:none;
+}
+.info{
+    margin-left:20px;
+}
+.info-title{
+    font:24px "Quicksand";
+    margin-bottom:12px;
+}
+.info-text{
+    font:13px "Quicksand";
+}
+.street-text{
+    font:13px "Quicksand";
+    margin-left:15px;
+}
+.phone-number{
+    font:13px "Quicksand";
+    margin-left:15px;
+}
+.info-phone{
+    margin-bottom:50px;
+}
+.message-button{
+    color:#fff;
+    width: 170px;
+    height: 40px;
+    background-color:#ff5959;
+    font:18px "Quicksand-Bold";
+    text-align: center;
+    border-style:none;
+    border-radius:12px;
+};
+
+button:focus{
+    outline:none;
+}
+.message-button:hover{
+    color:#ff5959;
+    border:1px solid #ff5959;
+    background-color:#fff;
+    transition:0.8s;
+}
+.map-button{
+    color:#ff5959;
+    background-color:#fff;
+    border:1px solid #ff5959;
+    position:relative;
+}
+.arrow{
+    position:absolute;
+    top:-120px;
+    left:70px;
+}
+.map-button:hover{
+    color:#fff;
+    background-color:#ff5959;
+    transition:0.8s;
+}
+.footer{
+    min-height:116px;
+    background-color:#ff5959;
+}
+.footer-text{
+    color:#fff;
+    text-align: center;
+    padding-top:50px;
+    font:13px "Quicksand";
+}
+
+@media only screen and (max-width:1300px)
+{
+    .register-block{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+}
+.register{
+    margin-bottom:20px;
+}
+    .info{
+        margin:0px;
+    }
+    .message-button{
+        margin-bottom:100px;
+    }
+    .info-text{
+        margin:0px 0px 20px 0px;
+    }
+}
+@media only screen and (max-width:1000px)
+{    
+    .message-button{
+        margin-bottom:20px;
+    }
+    .arrow{
+        display:none;
+    }
+    .menu-block{
+        display: flex;
+       align-items: center;
+       flex-wrap: wrap;
+       margin:0px auto;
+       
+    }
+  .menu-item{
+      margin:0px;
+      margin-bottom:15px;
+  }
+   
+  
+}
+    .menu{
+        margin:0px;    }
+
+
+    .brand{
+            margin:0px;
+        }
+    
+}
+@media only screen and (max-width:900px)
+{
+    .register-block{
+        text-align: center;
+    }
+   
+   
+    .message-button{
+        margin-bottom:20px;
+    }
+}
+@media only screen and (max-width:770px)
+{
+    .menu-block{
+        display: flex;
+        justify-content: center;
+    }
+  .register{
+     text-align:center;
+  }
+  .info{
+      text-align:center;
+      
+  }
+}
+@media only screen and (max-width:450px)
+{
+    .menu-block{
+        margin:0px;
+        padding:0px;
+    }
+}
+@media only screen and (max-width:370px)
+{
+    
+    .register-block{
+        margin:auto;
+    }
+
+    .info-text{
+        width: 250px;
+    }
+}
